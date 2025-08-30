@@ -1,0 +1,6 @@
+.venv/
+.work/*
+!.work/.gitkeep
+**/__pycache__/**
+**/*.egg-info/
+library/.bkup/
