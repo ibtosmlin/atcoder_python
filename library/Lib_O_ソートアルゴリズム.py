@@ -1,14 +1,14 @@
-#title#
+######title######
 # ソートアルゴリズム
-#subtitle#
+######subtitle######
 # BubbleSort
 # SelectSort
 
-#name#
+##############name##############
 # ソートアルゴリズム
-#description#
+######description######
 # ソートアルゴリズム
-#body#
+######body######
 def BubbleSort(A, N):
     # 後ろから大きいものを前にスワップしていく
     flag = True
@@ -41,6 +41,6 @@ A = list(map(int, input().split()))
 A, cnt = SelectionSort(A, n)
 print(*A)
 print(cnt)
-#prefix#
+######prefix######
 # Lib_O_ソートアルゴリズム_Sort
-#end#
+##############end##############

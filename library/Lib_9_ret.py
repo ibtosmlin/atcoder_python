@@ -1,74 +1,74 @@
-#name#
+##############name##############
 # output0
-#description#
+######description######
 # print(ret)
-#body#
+######body######
 print($ret)
-#prefix#
+######prefix######
 # print(0ret)
-#end#
+##############end##############
 
-#name#
+##############name##############
 # output2
-#description#
+######description######
 # print(INF⇒-1)
-#body#
+######body######
 ret =
 print(-1 if $ret == INF else $ret)
-#prefix#
+######prefix######
 # print(2INF⇒-1)
-#end#
+##############end##############
 
-#name#
+##############name##############
 # output3
-#description#
+######description######
 # print(3'\n'.join(map)
-#body#
+######body######
 print('\n'.join(map(str, $ret)))
-#prefix#
+######prefix######
 # print(3'\n'.join(map(str)
-#end#
+##############end##############
 
-#name#
+##############name##############
 # output4
-#description#
+######description######
 # print("".join)
-#body#
+######body######
 print(''.join($ret))
-#prefix#
+######prefix######
 # print(4''.join(ret))
-#end#
+##############end##############
 
 
-#name#
+##############name##############
 # output interactive
-#description#
+######description######
 # interactive
-#body#
+######body######
 def req($ret): print($ret, flush=True)
 
-#prefix#
+######prefix######
 # print(6interactive)
-#end#
+##############end##############
 
-#name#
+##############name##############
 # output7
-#description#
+######description######
 # rounded
-#body#
+######body######
 def fstr(x): return f'{x:.10f}'
 
-#prefix#
+######prefix######
 # print(7roundeds)
-#end#
+##############end##############
 
-#name#
+##############name##############
 # outputYesNo
-#description#
+######description######
 # outputYesNo
-#body#
+######body######
 ret =
 print('Yes' if $ret else 'No')
-#prefix#
+######prefix######
 # print(5yesno)
-#end#
+##############end##############

@@ -1,16 +1,16 @@
-#title#
+######title######
 # 行列回転
-#subtitle#
+######subtitle######
 # rotate: tだけシフト回転
 # reverse_lr: 左右反転
 # reverse_ud: 上下反転
 
 
-#name#
+##############name##############
 # 行列演算2
 #descripiton#
 # 行列回転
-#body#
+######body######
 class Matrix():
     def __init__(self, n, v=None):
         self.n = n
@@ -79,6 +79,6 @@ for i in range(n):
         ret.append(mx.get_value(i, j))
     print(''.join(map(str, ret)))
 
-#prefix#
+######prefix######
 # Lib_M_matrix-回転と反転
-#end#
+##############end##############

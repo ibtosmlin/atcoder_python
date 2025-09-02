@@ -1,14 +1,14 @@
-#title#
+######title######
 # 文字列等の部分列の個数を数える
-#subtitle#
+######subtitle######
 # count_subsets(S): Sの部分列を数える
 # CountSubsets(S,T): S,Tの共通した部分列を数える
 
-#name#
+##############name##############
 # 部分列の個数
-#description#
+######description######
 # Lib_Substrings_count
-#body#
+######body######
 
 def count_subsets(S, mod=10**9+7):
     """
@@ -122,7 +122,7 @@ t = [ord(si)-ord('a') for si in t]
 cs = CountSubsets(s, t, mod)
 print((cs.scS+cs.scT-cs.scbothST - 1)%mod)
 
-#prefix#
+######prefix######
 # Lib_部分列個数_subsetcount#
-#end#
+##############end##############
 

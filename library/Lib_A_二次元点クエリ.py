@@ -1,14 +1,14 @@
-#title#
+######title######
 # 二次元点クエリ
-#subtitle#
+######subtitle######
 # RangeSearchQuery(A): ポイントのリストAを与えてクラスをインスタンス
 # query(sx, tx, sy, ty): 二次元点のリストで範囲を指定して、含まれる要素番号を出力する
 
-#name#
+##############name##############
 # 二次元点クエリ
-#description#
+######description######
 # 二次元点クエリ
-#body#
+######body######
 from bisect import bisect_left, bisect_right
 
 class RangeSearchQuery:
@@ -52,7 +52,7 @@ for _ in range(q):
     print()
 
 
-#prefix#
+######prefix######
 # compress_zaatsu
 # Lib_A_二次元点クエリ
-#end#
+##############end##############

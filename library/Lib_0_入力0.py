@@ -1,79 +1,79 @@
-#name#
+##############name##############
 # intinput
-#description#
+######description######
 # int型でのinput
-#body#
+######body######
 int(input())
-#prefix#
+######prefix######
 # intinput
-#end#
+##############end##############
 
-#name#
+##############name##############
 # inputsplit
-#description#
+######description######
 # inputをsplit
-#body#
+######body######
 input().split()
-#prefix#
+######prefix######
 # inputsplit
-#end#
+##############end##############
 
-#name#
+##############name##############
 # mapint
-#description#
+######description######
 # int型で複数数値のinput
-#body#
+######body######
 map(int, input().split())
-#prefix#
+######prefix######
 # mapintinput
-#end#
+##############end##############
 
-#name#
+##############name##############
 # mapint1
-#description#
+######description######
 # int型で複数数値の0-index input
-#body#
+######body######
 map(lambda x: int(x)-1, input().split())
-#prefix#
+######prefix######
 # mapintinput1
-#end#
+##############end##############
 
-#name#
+##############name##############
 # listmapint
-#description#
+######description######
 # int型でlistのinput
-#body#
+######body######
 list(map(int, input().split()))
-#prefix#
+######prefix######
 # listmapintinput
-#end#
+##############end##############
 
-#name#
+##############name##############
 # tuplemapint
-#description#
+######description######
 # int型でtupleのinput
-#body#
+######body######
 tuple(map(int, input().split()))
-#prefix#
+######prefix######
 # tuplemapintinput
-#end#
+##############end##############
 
-#name#
+##############name##############
 # matrixintinput
-#description#
+######description######
 # int型でmatrixのinput
-#body#
+######body######
 [list(map(int, input().split())) for _ in range($N)
-#prefix#
+######prefix######
 # [listmapint
-#end#
+##############end##############
 
-#name#
+##############name##############
 # matrixstrinput
-#description#
+######description######
 # 文字列でmatrixのinput
-#body#
+######body######
 [list(input()) for _ in range($N)
-#prefix#
+######prefix######
 # [input()
-#end#
+##############end##############

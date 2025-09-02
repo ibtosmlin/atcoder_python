@@ -1,16 +1,16 @@
-#title#
+######title######
 # トポロジカルソート
-#subtitle#
+######subtitle######
 # 有向非巡回グラフ（DAG）の各ノードを順序付けして、どのノードもその出力辺の先のノードより前にくるように並べることである。
 # 有向非巡回グラフは必ずトポロジカルソートすることができる。
 # totplogical_sort(ノード数, 隣接グラフ):
 # .build(sorttype): sorttype = 'appear' 出たとこ順、 = 'nodeid' ノード番号順
 
-#name#
+##############name##############
 # トポロジカルソート 有向グラフ
-#description#
+######description######
 # トポロジカルソート topologicalsort
-#body#
+######body######
 
 from collections import deque
 
@@ -101,6 +101,6 @@ print(ts.parents)
 print(ts.is_dag)
 print(ts.is_unique)
 
-#prefix#
+######prefix######
 # Lib_GD_トポロジカルソート_topologicalsort
-#end#
+##############end##############

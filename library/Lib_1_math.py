@@ -1,8 +1,8 @@
-#name#
+##############name##############
 # Lib_math
-#description#
+######description######
 # mathのライブラリ
-#body#
+######body######
 import math
 print(math.sin(math.pi/4))
 print(math.cos(math.pi/4))
@@ -12,17 +12,17 @@ math.radians(180)
 # radian→度
 math.degrees(3.1415)
 
-#prefix#
+######prefix######
 # Lib_math_最大公約数_三角関数
 # import math
-#end#
+##############end##############
 
-#name#
+##############name##############
 # Lib_decimal
-#description#
+######description######
 # 四捨五入が正しくできるツール
 # Decimal で扱う
-#body#
+######body######
 
 pypyで使っちゃダメ！！！！！
 from decimal import Decimal
@@ -31,15 +31,15 @@ f = 123.456
 fd = Decimal(str(f))
 fr = fd.quantize(Decimal('0'), rounding=ROUND_HALF_UP)  #123
 fr = fd.quantize(Decimal('0.1'), rounding=ROUND_HALF_UP)#123.5
-#prefix#
+######prefix######
 # Lib_四捨五入_Decimal
-#end#
+##############end##############
 
-#name#
+##############name##############
 # Lib_math_複素数
-#description#
+######description######
 # Lib_複素数
-#body#
+######body######
 import cmath
 
 z1 = 5 + 13j
@@ -61,15 +61,15 @@ print(cmath.rect(1, cmath.pi/2))
 print(z2.conjugate())
 # (5-13j)
 
-#prefix#
+######prefix######
 # Lib_math_複素数
-#end#
+##############end##############
 
-#name#
+##############name##############
 # Lib_sort_by_function
-#description#
+######description######
 # Lib_sort_by_function
-#body#
+######body######
 
 # https://atcoder.jp/contests/abc308/tasks/abc308_c
 
@@ -89,20 +89,20 @@ class OrderedObj:
         return f'{self.a} {self.b} {self.i}'
 
 
-#prefix#
+######prefix######
 # Lib_sort_by_function比較
-#end#
+##############end##############
 
 
-#name#
+##############name##############
 # Lib_sqroot
-#description#
+######description######
 # Lib_sqroot
-#body#
+######body######
 def sqrt(x):
     r = int(x**0.5) - 3
     while (r+1)*(r+1) <= x: r += 1
     return r
-#prefix#
+######prefix######
 # Lib_sqroot
-#end#
+##############end##############

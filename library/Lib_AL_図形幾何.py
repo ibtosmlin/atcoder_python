@@ -1,16 +1,16 @@
-#title#
+######title######
 # 図形のライブラリ
-#subtitle#
+######subtitle######
 # Point:
 # Line:
 # Circle:
 # Polygon:
 
-#name#
+##############name##############
 # Lib_AL_図形_n角形/円
-#description#
+######description######
 # 図形のライブラリ
-#body#
+######body######
 
 import math
 EPS = 1e-08
@@ -665,6 +665,6 @@ print('{:.10f}'.format(closestPair(P)))
 ######################################################################
 
 
-#prefix#
+######prefix######
 # Lib_AL_図形_n角形/円
-#end#
+##############end##############

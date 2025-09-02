@@ -1,6 +1,6 @@
-#title#
+######title######
 # Wavelet Matrix
-#subtitle#
+######subtitle######
 # WaveletMatrix: 数列のある範囲での値の頻度やインデックスを求める
 # access(k): k番目の要素の値
 # select(v, k): k番目のvのインデックス
@@ -12,11 +12,11 @@
 # prev_value(l, r, value): 区間[l, r) に含まれる要素のうち valueより小さいもの
 # next_value(l, r, value): 区間[l, r) に含まれる要素のうち value以上の値(valueのこともあり得る)
 
-#name#
+##############name##############
 # Wavelet Matrix
-#description#
+######description######
 # WaveletMatrix: 数列のある範囲での値の頻度やインデックスを求める
-#body#
+######body######
 
 class WaveletMatrix:
     """
@@ -321,6 +321,6 @@ for _ in range(q):
         ret = min(ret, v-d)
     print(ret)
 
-#prefix#
+######prefix######
 # Lib_D_WaveletMatrix
-#end#
+##############end##############

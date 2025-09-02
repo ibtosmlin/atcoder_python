@@ -1,8 +1,8 @@
-#name#
+##############name##############
 # 半分全列挙
-#description#
+######description######
 # 半分全列挙
-#body#
+######body######
 # https://atcoder.jp/contests/abc184/tasks/abc184_f
 # 半分全列挙
 # n <= 40 だと半分で全列挙したものをそれぞれ計算してマージ処理する
@@ -32,6 +32,6 @@ for f in lower:
 
 print(ret)
 
-#prefix#
+######prefix######
 # Lib_A_半分全列挙
-#end#
+##############end##############

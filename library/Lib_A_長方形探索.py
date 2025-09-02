@@ -1,16 +1,16 @@
-#title#
+######title######
 # 長方形探索
-#subtitle#
+######subtitle######
 # max_square(h, w, G, block):最大正方形
 # max_rect(h, w, G, block):最大長方形
 # left_min_position(A, min_value=0): 左で自分より小さいものがあるindexを高速で計算
 
 
-#name#
+##############name##############
 # 長方形探索
-#description#
+######description######
 # 長方形探索
-#body#
+######body######
 #####################################
 # 最大正方形
 def max_square(h, w, G, block):
@@ -96,6 +96,6 @@ for li, ri, ai in zip(l, r, A):
     mx = max(mx, ai*(ri-li-1))
 print(mx)
 
-#prefix#
+######prefix######
 # Lib_A_長方形探索_最大正方形_最大長方形
-#end#
+##############end##############

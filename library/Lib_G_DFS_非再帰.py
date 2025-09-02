@@ -1,8 +1,8 @@
-#name#
+##############name##############
 # DFS非再帰
-#description#
+######description######
 # DFS非再帰
-#body#
+######body######
 
 # 深さ優先探索
 # 隣接リスト
@@ -62,6 +62,6 @@ for _ in range(n-1):
 dp = dfs(G, 0)
 print(sum(dp))
 
-#prefix#
+######prefix######
 # Lib_G_DFS_非再帰
-#end#
+##############end##############

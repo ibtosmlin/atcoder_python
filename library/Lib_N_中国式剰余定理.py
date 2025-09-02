@@ -1,15 +1,15 @@
-#title#
+######title######
 # 中国式剰余定理
 
-#subtitle#
+######subtitle######
 # mod ai = xi i=1...nとなるような整数の最小値を求める
 # CRT(X, M)
 
-#name#
+##############name##############
 # 中国式剰余定理
 #descripiton#
 # mod ai = xi となるような整数の最小値を求める
-#body#
+######body######
 
 INF = 1 << 64
 
@@ -74,6 +74,6 @@ x,M = CRT(rem_list,mod_list)
 print(x, M)
 
 
-#prefix#
+######prefix######
 # Lib_N_chinese_CRT_中国式剰余定理
-#end#
+##############end##############

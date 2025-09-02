@@ -1,22 +1,22 @@
-#name#
+##############name##############
 # translate
-#description#
+######description######
 # 複数の文字列を変換
-#body#
+######body######
 s = '54IZSB'
 ts = s.translate(str.maketrans("BSI","123"))
 print(ts)
 # 543Z21
-#prefix#
+######prefix######
 # translate
 # replace
-#end#
+##############end##############
 
-#name#
+##############name##############
 # d進数
-#description#
+######description######
 # nをd進数表記
-#body#
+######body######
 ##############################
 # nをd進数表記
 # d進数表記を10進数表記に
@@ -62,24 +62,24 @@ def myint(s:str, d:int) -> int:
 
 print(myint(s, 9))
 
-#prefix#
+######prefix######
 # n進数
 # d進数
-#end#
+##############end##############
 
-#name#
+##############name##############
 # digital digit
-#description#
+######description######
 #  -
 # | |
 #  -
 # | |
 #  -
 
-#body#
+######body######
 led_statuses = ["1110111", "0100100", "1011101", "1101101", "0101110",
     "1101011", "1111011", "0100111", "1111111", "1101111"]
 led_digit = [int(status, base=2) for status in led_statuses]
-#prefix#
+######prefix######
 # digital digit
-#end#
+##############end##############

@@ -1,8 +1,8 @@
-#name#
+##############name##############
 # BITset
-#description#
+######description######
 # BITset
-#body#
+######body######
 
 def popcount64(n):
     c=(n&0x5555555555555555)+((n>>1)&0x5555555555555555)
@@ -29,7 +29,6 @@ def bitset(s, b, m):
 
 # https://atcoder.jp/contests/abc258/tasks/abc258_g
 
-#prefix#
+######prefix######
 # Lib_BITSET
-#end#
-
+##############end##############

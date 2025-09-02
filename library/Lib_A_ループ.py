@@ -1,8 +1,8 @@
-#name#
+##############name##############
 # ループ#
-#description#
+######description######
 # ループ#
-#body#
+######body######
 class Loop():
     """ループを検索して計算量圧縮
 
@@ -98,6 +98,6 @@ def g(x):
 lp = Loop(n, 0, f, g)
 print(lp.get_kth(k))
 
-#prefix#
+######prefix######
 # Lib_A_Loop_ループ
-#end#
+##############end##############

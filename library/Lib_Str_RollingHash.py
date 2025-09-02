@@ -1,12 +1,12 @@
-#title#
+######title######
 # ローリングハッシュ
-#subtitle#
+######subtitle######
 # RollingHash: 文字列が一致しているか判定する
 
-#name#
+##############name##############
 # ローリングハッシュ
-#description#
-#body#
+######description######
+######body######
 # https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_bd
 
 from random import randint
@@ -80,14 +80,14 @@ for _ in range(q):
     else:
         print('No')
 
-#prefix#
+######prefix######
 # Lib_Str_RollingHash
-#end#
+##############end##############
 
-#name#
+##############name##############
 # 動的ローリングハッシュ(１点更新)
-#description#
-#body#
+######description######
+######body######
 # https://atcoder.jp/contests/abc331/tasks/abc331_f
 
 from atcoder.segtree import SegTree
@@ -161,6 +161,6 @@ for _ in range(q):
         l, r = map(int, query[1:])
         print('Yes' if left.get(l-1, r) == right.get(n-r, n-l+1) else 'No')
 
-#prefix#
+######prefix######
 # Lib_Str_RollingHash
-#end#
+##############end##############

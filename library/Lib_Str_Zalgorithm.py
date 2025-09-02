@@ -1,14 +1,14 @@
-#title#
+######title######
 # Zアルゴリズム
-#subtitle#
+######subtitle######
 # z_altp: SとS[i:]の接頭辞が一致する長さのリスト
 
-#name#
+##############name##############
 # Zアルゴリズム
-#description#
+######description######
 # Zアルゴリズム
 # S と S[i:]が接頭辞が一致する長さ
-#body#
+######body######
 
 # Zアルゴリズム
 # S と S[i:]が接頭辞が一致する長さ
@@ -46,6 +46,6 @@ ret = z_algo(s)
 # 5 0 abcbcba ba
 # 6 1 abcbcba a
 
-#prefix#
+######prefix######
 # Lib_STr_Zalgorithm
-#end#
+##############end##############

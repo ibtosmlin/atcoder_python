@@ -1,13 +1,13 @@
-#title#
+######title######
 # 二次元累積和
-#subtitle#
+######subtitle######
 # Imos:クラス
 
-#name#
+##############name##############
 # 累積和
-#description#
+######description######
 # 累積和
-#body#
+######body######
 class Imos:
     def __init__(self, h, w):
         self.h = h
@@ -54,6 +54,6 @@ im.accumlate()
 for i in range(im.h):
     print(*im.grid[i][:-1])
 
-#prefix#
+######prefix######
 # Lib_D_累積和_accum
-#end#
+##############end##############

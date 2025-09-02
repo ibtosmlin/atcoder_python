@@ -1,17 +1,17 @@
-#title#
+######title######
 # ユニオンファインド部分永続
-#subtitle#
+######subtitle######
 # UnionFindPP(n): クラス
 # .find(t, x): 時刻t における xの親を見つける
 # .unite(x, y): x,yをつなげる,時刻は自動で記録される
 # .is_same(t,x,y):時刻tにおけるxとyが連結か？
 # .time_join(x, y): xとyが連結となった時刻を返す
 
-#name#
+##############name##############
 # ユニオンファインド部分永続
-#description#
+######description######
 # ユニオンファインド部分永続
-#body#
+######body######
 class UnionFindPP:
     def __init__(self, n):
         self.INF = 1e20
@@ -116,6 +116,6 @@ for _ in range(q):
     print(uf.time_join(a, b))
 # https://atcoder.jp/contests/code-thanks-festival-2017/tasks/code_thanks_festival_2017_h
 
-#prefix#
+######prefix######
 # Lib_G_unionfindPP
-#end#
+##############end##############

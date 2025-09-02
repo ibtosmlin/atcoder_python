@@ -1,18 +1,18 @@
-#title#
+######title######
 # 素数判定・出力
 
-#subtitle#
+######subtitle######
 # is_prime(n):素数判定 O(n**0.5)
 # miller_rabin(n):素数ミラーラビン判定 n < 10**18, Q = 10**5回
 # get_prime(n):n以下の素数出力 O(n**0.5)
 # count_primes(n):n以下の素数の数 O(n**0.5)
 
 
-#name#
+##############name##############
 # 素数判定・出力
 #descripiton#
 # 素数判定・出力
-#body#
+######body######
 
 ##############################
 # 素数判定 O(n**0.5)
@@ -185,6 +185,6 @@ def legendre(n, p):
         n //= p
     return ret
 
-#prefix#
+######prefix######
 # Lib_N_prime_素数
-#end#
+##############end##############

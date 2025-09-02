@@ -1,12 +1,12 @@
-#title#
+######title######
 # ゾブリストハッシュ
-#subtitle#
+######subtitle######
 # ZobristHash: 集合が一致しているか、数列が一致しているかがO(1)でわかる
 
-#name#
+##############name##############
 # ゾブリストハッシュ
-#description#
-#body#
+######description######
+######body######
 # https://atcoder.jp/contests/abc250/tasks/abc250_e -> Hash
 # https://atcoder.jp/contests/abc367/tasks/abc367_f -> MultiHash
 
@@ -76,6 +76,6 @@ for i in range(Q):
     print("Yes" if hashA.get(0, x) == hashB.get(0, y) else "No")
 
 
-#prefix#
+######prefix######
 # Lib_Set_ZobristHash
-#end#
+##############end##############

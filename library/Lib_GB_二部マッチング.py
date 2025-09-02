@@ -1,8 +1,8 @@
-#name#
+##############name##############
 # Graph二部マッチング
-#description#
+######description######
 # Graph二部マッチング
-#body#
+######body######
 
 from collections import deque
 
@@ -83,6 +83,6 @@ for i in range(e):
     BM.add_edge(x, y)
 print(BM.matching)
 
-#prefix#
+######prefix######
 # Lib_G_二部マッチング_bipartitematching
-#end#
+##############end##############

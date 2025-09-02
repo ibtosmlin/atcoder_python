@@ -1,8 +1,8 @@
-#name#
+##############name##############
 # Diameter
-#description#
+######description######
 # 木の直径
-#body#
+######body######
 
 from collections import deque
 
@@ -107,6 +107,6 @@ print('-------------------')
 print(count_diameter(n, G))
 
 
-#prefix#
+######prefix######
 # Lib_GT_木の直径
-#end#
+##############end##############

@@ -1,13 +1,13 @@
-#title#
+######title######
 # SuffixArray
-#subtitle#
+######subtitle######
 # SuffixArray: 接尾辞を昇順に並べたもの
 
-#name#
+##############name##############
 # SuffixArray
-#description#
+######description######
 # SuffixArray
-#body#
+######body######
 # https://atcoder.jp/contests/abc362/tasks/abc362_g
 
 from atcoder.string import suffix_array
@@ -39,6 +39,6 @@ for _ in range(q):
     ret = bisect_right(t) - bisect_left(t)
     print(ret)
 
-#prefix#
+######prefix######
 # Lib_Str_SuffixArray
-#end#
+##############end##############

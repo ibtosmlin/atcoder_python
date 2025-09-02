@@ -1,7 +1,7 @@
-#title#
+######title######
 # ユニオンファインド重み付き（ポテンシャル）
 
-#subtitle#
+######subtitle######
 # UnionFindWeighted(n)
 # .find(x): xの親
 # .unite(x, y, w): x と y の差を w として結合
@@ -12,11 +12,11 @@
 # .get_groups(): リーダーに所属する要素一覧リストを返す
 # self.leadersはリーダーの集合も作成
 
-#name#
+##############name##############
 # ユニオンファインド重み付き
-#description#
+######description######
 # ユニオンファインド重み付き
-#body#
+######body######
 
 class UnionFindWeighted:
     def __init__(self, n):                      # 初期化
@@ -106,6 +106,6 @@ for _ in range(m):
     a -= 1; b -= 1
     uf.unite(a, b, w)
 
-#prefix#
+######prefix######
 # Lib_G_unionfind_weighted
-#end#
+##############end##############

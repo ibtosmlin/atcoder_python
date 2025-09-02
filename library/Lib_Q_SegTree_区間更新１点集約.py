@@ -1,15 +1,15 @@
-#title#
+######title######
 # セグメント木双対：区間＜更新・加算・min＞・一点集約
-#subtitle#
+######subtitle######
 # 区間更新・一点集約
 # 区間加算・一点集約
 # 区間min・一点集約
 
-#name#
+##############name##############
 # 双対セグメント木区間x一点
-#description#
+######description######
 # 双対セグメント木区間x一点
-#body#
+######body######
 class SegTree:  # 初期化処理
     """dual Segment Tree
     区間＜更新・加算・min・max＞・1点抽出
@@ -116,6 +116,6 @@ for _ in range(q):
         # i -= 1
         print(RUQ.query(i))
     print(RUQ.debug())
-#prefix#
+######prefix######
 # Lib_Q_SegDual_双対_区間更新一点集約
-#end#
+##############end##############

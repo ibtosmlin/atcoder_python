@@ -1,13 +1,13 @@
-#title#
+######title######
 # 二つのソートされたリストの要素の差の最小値を探索
-#subtitle#
+######subtitle######
 # near(a, b):最小となる位置の組み合わせと値(i, j, a[i]-b[j])
 
-#name#
+##############name##############
 # 差分最小値探索
-#description#
+######description######
 # 差分最小値探索
-#body#
+######body######
 def near(a:list, b:list) -> tuple:
     """二つのソートされたリストの要素の差の最小値を探索
 
@@ -37,6 +37,6 @@ def near(a:list, b:list) -> tuple:
         else:
             break
     return (reta, retb, retd)
-#prefix#
+######prefix######
 # Lib_A_差分最小値探索
-#end#
+##############end##############

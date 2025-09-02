@@ -1,13 +1,13 @@
-#title#
+######title######
 # ランレングス圧縮
-#subtitle#
+######subtitle######
 # 文字列を文字＋個数で表記する
 
-#name#
+##############name##############
 # ランレングス圧縮
-#description#
+######description######
 # ランレングス圧縮
-#body#
+######body######
 #####################################
 from itertools import groupby
 strings = "aabbbbbbbbbbbba"
@@ -18,6 +18,6 @@ split = [list(g) for k, g in groupby(strings)]
 print(rle)
 print(split)
 #[('a', 2), ('b', 12), ('a', 1)]
-#prefix#
+######prefix######
 # Lib_A_ランレングス圧縮_rle
-#end#
+##############end##############

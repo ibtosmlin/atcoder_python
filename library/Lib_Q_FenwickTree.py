@@ -1,12 +1,12 @@
-#title#
+######title######
 # FenwickTree
-#subtitle#
+######subtitle######
 # FenwickTree/Binary Indexed Tree
 
-#name#
+##############name##############
 # FenwickTree/Binary Indexed Tree
-#description#
-#body#
+######description######
+######body######
 # 部分和の計算と要素の更新の両方を効率的に行える
 # 1-indexed
 # sum(r)        :閉区間 [0,r] の合計を取得する
@@ -117,6 +117,6 @@ class BinaryIndexedTree:
 
 ########################################
 
-#prefix#
+######prefix######
 # Lib_Q_BIT_Fenwick
-#end#
+##############end##############

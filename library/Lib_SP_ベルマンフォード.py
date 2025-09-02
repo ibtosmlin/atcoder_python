@@ -1,15 +1,15 @@
-#title#
+######title######
 # ベルマンフォード法
-#subtitle#
+######subtitle######
 # bellman_ford: 重み付き隣接リストにより単一始点最短経路のリストを作る
 # 負閉路OK  O((E+V)logV)
 
-#name#
+##############name##############
 # ベルマンフォード法
-#description#
+######description######
 # ベルマンフォード法・負閉路OK
 # O(NM)
-#body#
+######body######
 # ベルマンフォード法
 # 重み付きグラフ関係により最短経路のリストを作る
 # 辺を繰り返しみて、最小化していく
@@ -72,6 +72,6 @@ if ret == -1:
 else:
     print(-ret[-1])
 
-#prefix#
+######prefix######
 # Lib_SP_最短経路探索_bellmanford
-#end#
+##############end##############

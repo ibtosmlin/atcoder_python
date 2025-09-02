@@ -1,16 +1,16 @@
-#title#
+######title######
 # セグメント木１点更新区間集約
-#subtitle#
+######subtitle######
 # SegmentTree(op, e, v):
 # op: モノイドの演算
 # e: モノイドの単位元
 # v: 要素数orリスト
 
-#name#
+##############name##############
 # セグメント木１点更新区間集約
-#description#
+######description######
 # セグメント木１点更新区間集約
-#body#
+######body######
 
 from atcoder.segtree import SegTree as SegTreeACL
 
@@ -128,9 +128,9 @@ for _ in range(q):
     else:
         print(sgt.max_right(u-1, lambda y: y<v) + 1)
 
-#prefix#
+######prefix######
 # Lib_Q_Seg_一点更新区間集約
-#end#
+##############end##############
 # 以下自作
 # class SegmentTree:  # 初期化処理
 #     """Segment Tree

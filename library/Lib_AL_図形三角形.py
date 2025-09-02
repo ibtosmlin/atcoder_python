@@ -1,14 +1,14 @@
-#title#
+######title######
 # 三角形
-#subtitle#
+######subtitle######
 # C(a, b, R): 二辺a,bと挟角Rから対辺の長さを計算
 # S(a, b, R): 二辺a,bと挟角Rから面積を計算
 
-#name#
+##############name##############
 # Lib_AL_図形_三角形_角度
-#description#
+######description######
 # 図形のライブラリ
-#body#
+######body######
 
 ########################
 import math
@@ -44,6 +44,6 @@ def S(a, b, R):
     R = math.radians(R)  # Rが度数の場合
     return abs(0.5 * a * b * math.sin(R))
 
-#prefix#
+######prefix######
 # Lib_AL_図形_三角形_角度
-#end#
+##############end##############

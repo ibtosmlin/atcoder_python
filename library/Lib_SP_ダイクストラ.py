@@ -1,16 +1,16 @@
-#title#
+######title######
 # ダイクストラ法
-#subtitle#
+######subtitle######
 # dijkstra: 重み付き隣接リストにより単一始点最短経路のリストを作る
 # O((E+V)logV)
 
-#name#
+##############name##############
 # ダイクストラ法
-#description#
+######description######
 # ダイクストラ法
 # 辺の重みが小さいものから、決めていく
 
-#body#
+######body######
 # ダイクストラ法
 # 重み付きグラフ関係により最短経路のリストを作る
 # 有向グラフで優先度付きキューで探索
@@ -119,6 +119,6 @@ def dijkstra(n, G, start):
     return dist
 
 
-#prefix#
+######prefix######
 # Lib_SP_最短経路探索_dijkstra
-#end#
+##############end##############

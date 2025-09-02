@@ -1,6 +1,6 @@
-#title#
+######title######
 # Mo アルゴリズム
-#subtitle#
+######subtitle######
 # A:リスト n = 10**5
 # Q: l, r, q = 10**5
 # O(NQ−−√)が間に合う条件である*3
@@ -8,11 +8,11 @@
 # クエリがオフラインで与えられる(先読みができる)
 # 配列の要素が不変である
 
-#name#
+##############name##############
 # Mo'sAlgorithm#
-#description#
+######description######
 # Mo'sAlgorithm#
-#body#
+######body######
 
 class _Mo:
     def __init__(self, N:int, Q:int):
@@ -120,6 +120,6 @@ ans = mo.solve()
 print("\n".join(map(str,ans)))
 
 
-#prefix#
+######prefix######
 # Lib_Mos_モアルゴリズム
-#end#
+##############end##############

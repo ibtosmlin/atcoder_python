@@ -1,14 +1,14 @@
-#title#
+######title######
 # 座標圧縮
-#subtitle#
+######subtitle######
 # Compress: 座標圧縮して元の配列をID化
 # Compress2D: 2次元版
 
-#name#
+##############name##############
 # 座標圧縮
-#description#
+######description######
 # 座標圧縮
-#body#
+######body######
 
 from bisect import bisect_left
 class Compress:
@@ -62,16 +62,16 @@ class Compress:
 
 # c = Compress([100,300,50,900,200], spacing=True)
 
-#prefix#
+######prefix######
 # Lib_A_座標圧縮_compress_zaatsu
-#end#
+##############end##############
 
 
-#name#
+##############name##############
 # 座標圧縮二次元
-#description#
+######description######
 # 座標圧縮二次元
-#body#
+######body######
 from bisect import bisect_left
 class Compress:
     INF = 10**10
@@ -152,6 +152,6 @@ class Compress2d:
 # print(c.xc.valuesequence)
 # print(c.yc.valuesequence)
 # print(c.list)
-#prefix#
+######prefix######
 # Lib_A_座標圧縮2D_compress_zaatsu
-#end#
+##############end##############

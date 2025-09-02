@@ -2,9 +2,8 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
-from jinja2 import Environment, FileSystemLoader
-
 import tools.toolfunc as tf
+from jinja2 import Environment, FileSystemLoader
 
 ENCODING = "utf8"
 SEGMENTS = [
@@ -31,7 +30,11 @@ def parse_lib_file(filepath: Path) -> dict | None:
     title, subtitle = None, []
     mode = None
     for line in lines:
-        if line in {"#title#", "#subtitle#", "#name#"}:
+        if line in {
+            "######title######",
+            "######subtitle######",
+            "##############name##############",
+        }:
             mode = line.strip("#")
             continue
         if mode == "name":

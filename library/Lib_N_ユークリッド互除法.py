@@ -1,15 +1,15 @@
-#title#
+######title######
 # ユークリッド互除法
 
-#subtitle#
+######subtitle######
 # gcd(x, y): xとyの最大公約数を求める
 # extgcd(x, y): ax + by = d ,  d = gcd(x, y)となるa, b, dを出力
 
-#name#
+##############name##############
 # ユークリッド互除法
 #descripiton#
 # gcd, extgcd
-#body#
+######body######
 
 INF = 1 << 64
 import math
@@ -30,6 +30,6 @@ def extgcd(a, b):
     return s, t, d
 
 
-#prefix#
+######prefix######
 # Lib_N_gcd_ユークリッド互除法
-#end#
+##############end##############

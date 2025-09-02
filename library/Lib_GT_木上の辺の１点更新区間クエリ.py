@@ -1,6 +1,6 @@
-#title#
+######title######
 # 木の上の範囲クエリ
-#subtitle#
+######subtitle######
 # 木の上の範囲クエリ RangeQuery
 # SegTree_EularTour(n ,G, node_cost): node_costなしの場合 [0] * n
 # set_euler_tour(root=0): rootを親として、オイラーツアーを計算
@@ -13,11 +13,11 @@
 # set_query(): セグメント木の設定
 
 # set_euler_tour(x)
-#name#
+##############name##############
 # 木の上の範囲クエリ
-#description#
+######description######
 # 木の上の範囲クエリ RangeQuery
-#body#
+######body######
 #############################################
 # 木の上で経路上の範囲クエリするもの
 # https://atcoder.jp/contests/abc294/tasks/abc294_g
@@ -222,6 +222,6 @@ for _ in range(q):
         print(seget.uv_edge_cost(x-1, y-1))
 
 
-#prefix#
+######prefix######
 # Lib_GT_木上の辺の１点更新区間クエリ_RangeQuery
-#end#
+##############end##############

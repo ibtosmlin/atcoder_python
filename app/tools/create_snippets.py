@@ -6,7 +6,13 @@ from . import toolfunc as tf
 
 # 定数
 ENCODING = "utf8"
-TAG_KEYS = {"#name#", "#prefix#", "#body#", "#description#", "#end#"}
+TAG_KEYS = {
+    "##############name##############",
+    "######prefix######",
+    "######body######",
+    "######description######",
+    "##############end##############",
+}
 
 
 def parse_lib_file(file_path: Path) -> dict:
@@ -14,10 +20,8 @@ def parse_lib_file(file_path: Path) -> dict:
     snippet_data = {}
     current_key = None
     snippet_name = None
-
     with file_path.open("r", encoding=ENCODING) as f:
         lines = [line.strip("\n") for line in f]
-
     for line in lines:
         if line in TAG_KEYS:
             current_key = line.strip("#")

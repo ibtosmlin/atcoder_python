@@ -1,14 +1,14 @@
-#title#
+######title######
 # 最大フロー
-#subtitle#
+######subtitle######
 # MFGraph: 各辺(u,v)には容量capが設定、始点sから終点tへの最大流を求める
 # O(∣V∣**2・∣E∣), O(∣V+E∣・E**0.5 辺が全て1の時)
 
-#name#
+##############name##############
 # 最大フロー
-#description#
+######description######
 # 最大フローO(∣V∣**2・∣E∣)
-#body#
+######body######
 
 # 最大流問題
 # 始点sと終点tが区別された有向グラフ
@@ -45,6 +45,6 @@ for _ in range(m):
 
 print(mf.max_flow(0, n-1))
 
-#prefix#
+######prefix######
 # Lib_GD_最大フロー_maximumflow_dinic
-#end#
+##############end##############

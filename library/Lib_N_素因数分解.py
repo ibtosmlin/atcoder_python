@@ -1,15 +1,15 @@
-#title#
+######title######
 # 素因数分解
 
-#subtitle#
+######subtitle######
 # prime_factorize(n) -> {prime: degree}
 # prime_factorize(A) 複数個版
 
-#name#
+##############name##############
 # 素因数分解prime_factorize
 #descripiton#
 # 素因数分解
-#body#
+######body######
 ##############################
 # 素因数分解
 # nは10**15くらいまでOK
@@ -81,6 +81,6 @@ def legendre(n, p):
         n //= p
     return ret
 
-#prefix#
+######prefix######
 # Lib_N_素因数分解
-#end#
+##############end##############

@@ -1,13 +1,13 @@
-#title#
+######title######
 # 二次元の座標回転
-#subtitle#
+######subtitle######
 # rotate(point, R, isradian):
 
-#name#
+##############name##############
 # Lib_AL_図形_座標回転
-#description#
+######description######
 # 図形のライブラリ
-#body#
+######body######
 
 ########################
 import math
@@ -23,6 +23,6 @@ def rotate(point: tuple, R, isradian=True) -> tuple:
     return (cos*a-sin*b, sin*a+cos*b)
 
 
-#prefix#
+######prefix######
 # Lib_AL_図形_座標回転
-#end#
+##############end##############

@@ -1,14 +1,14 @@
-#title#
+######title######
 # 強連結成分分解
 
-#subtitle#
+######subtitle######
 # 強連結成分分解(SCC): グラフに対するSCCを行う
 
-#name#
+##############name##############
 # 強連結成分分解
-#description#
+######description######
 # 強連結成分分解(SCC): グラフに対するSCCを行う
-#body#
+######body######
 from atcoder.scc import SCCGraph as _SCCG
 
 class SCCGraph(_SCCG):
@@ -64,6 +64,6 @@ scc.dag()
 
 # https://atcoder.jp/contests/practice2/tasks/practice2_g
 
-#prefix#
+######prefix######
 # Lib_GD_強連結成分分解_SCC
-#end#
+##############end##############

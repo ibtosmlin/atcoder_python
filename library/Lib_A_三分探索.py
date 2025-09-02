@@ -1,13 +1,13 @@
-#title#
+######title######
 # 三分探索
-#subtitle#
+######subtitle######
 # 三分探索
 
-#name#
+##############name##############
 # 三分探索
-#description#
+######description######
 # 三分探索
-#body#
+######body######
 #######################
 # ムーアの法則
 # 三分探索/黄金分割探索
@@ -75,16 +75,16 @@ for i in range(80):
 print(g(low))
 
 
-#prefix#
+######prefix######
 # Lib_A_三分探索
-#end#
+##############end##############
 
 
-#name#
+##############name##############
 # 三分探索int
-#description#
+######description######
 # 三分探索int
-#body#
+######body######
 
 def f(x): return x**2
 
@@ -100,6 +100,6 @@ ret = min(f(low), f(high))
 print(ret)
 
 
-#prefix#
+######prefix######
 # Lib_A_三分探索整数
-#end#
+##############end##############

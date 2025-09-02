@@ -1,6 +1,6 @@
-#title#
+######title######
 # ユニオンファインド
-#subtitle#
+######subtitle######
 # UnionFind(n)
 # .find(x): xの親
 # .unite(x, y, w): x と y の差を w として結合
@@ -9,11 +9,11 @@
 # .size(x): xが所属するグループの要素数を返す
 # .get_groups(): リーダーに所属する要素一覧リストを返す
 
-#name#
+##############name##############
 # ユニオンファインド
-#description#
+######description######
 # ユニオンファインド
-#body#
+######body######
 
 class UnionFind:
     """木の深さが小さい方を親にする"""
@@ -100,6 +100,6 @@ for _ in range(q):
 
 # https://atcoder.jp/contests/atc001/tasks/unionfind_a
 
-#prefix#
+######prefix######
 # Lib_G_unionfind
-#end#
+##############end##############

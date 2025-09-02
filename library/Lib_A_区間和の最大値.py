@@ -1,13 +1,13 @@
-#title#
+######title######
 # 区間和の最大値
-#subtitle#
+######subtitle######
 # 区間和を累積和の差分としてその最大値を求めるar-al
 
-#name#
+##############name##############
 # 区間和の最大値
-#description#
+######description######
 # 区間和を累積和の差分としてその最大値を求めるar-al
-#body#
+######body######
 
 class Imos:
     def __init__(self, a:list):
@@ -49,6 +49,6 @@ im = Imos(a)
 print(im.get_max - im.get_min + 1)
 
 
-#prefix#
+######prefix######
 # Lib_A_区間和の最大値
-#end#
+##############end##############

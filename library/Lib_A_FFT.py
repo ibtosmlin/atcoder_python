@@ -1,13 +1,13 @@
-#title#
+######title######
 # 高速フーリエ変換(convolution, FFT)
-#subtitle#
+######subtitle######
 # convolve(a, b): リストa(len=n)とリストb(len=m)のコンボリューションc = a*b(len=n+m)を出力
 # c[t] = Σa_i * b_j  (i+j=t)
 
-#name#
+##############name##############
 # 高速フーリエ変換(convolution, FFT)
-#description#
-#body#
+######description######
+######body######
 # https://atcoder.jp/contests/practice2/tasks/practice2_f
 # https://atcoder.jp/contests/atc001/tasks/fft_c
 # Σa_i * x^i * Σb_j * x^j  = Σ(Σa_i*b_j) * x ^t  t = i + jとなる場合の
@@ -63,6 +63,6 @@ B = list(map(int,input().split()))
 
 print(*convolve(A,B))
 
-#prefix#
+######prefix######
 # Lib_A_FFT_convolution
-#end#
+##############end##############

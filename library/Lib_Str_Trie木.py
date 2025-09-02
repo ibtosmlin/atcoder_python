@@ -1,13 +1,13 @@
-#title#
+######title######
 # Trie木
-#subtitle#
+######subtitle######
 # Trie: 複数の文字列の共通接頭辞を検索する O(Σ|S|)
 
-#name#
+##############name##############
 # Trie木
-#description#
+######description######
 # Trie木クラス
-#body#
+######body######
 
 class TrieTree:
     class Node:
@@ -232,6 +232,6 @@ class TrieTree:
         return ''.join(string)
 
 
-#prefix#
+######prefix######
 # Lib_Str_共通接頭辞_Trie木
-#end#
+##############end##############

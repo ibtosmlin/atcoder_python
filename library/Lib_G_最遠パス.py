@@ -1,8 +1,8 @@
-#name#
+##############name##############
 # Graph最遠パス
-#description#
+######description######
 # Graph最遠パス
-#body#
+######body######
 
 # root から始めて一番遠いところにあるノードを見つける
 from collections import deque
@@ -42,6 +42,6 @@ for _ in range(n-1):
 
 
 
-#prefix#
+######prefix######
 # Lib_G_最短パス
-#end#
+##############end##############

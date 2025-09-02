@@ -1,15 +1,15 @@
-#title#
+######title######
 # 最小費用流
-#subtitle#
+######subtitle######
 # MCFGraph: 各辺(u,v)には容量cap, が設定、始点sから終点tへの最小コストを求める
 # O(F(∣V∣+∣E∣)log((∣V∣+∣E∣)))
 
 
-#name#
+##############name##############
 # 最小費用流
-#description#
+######description######
 # 最小費用流を算出するO(FElogV) ダイクストラ
-#body#
+######body######
 
 # 最小費用流問題
 # 各辺に容量とコストが設定されたフローネットワークにおいて、
@@ -40,6 +40,6 @@ for _ in range(m):
 
 print(mf.min_cost_flow(0, n-1, f))
 
-#prefix#
+######prefix######
 # Lib_GD_最小費用流_mincostflow
-#end#
+##############end##############

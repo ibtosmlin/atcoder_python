@@ -1,19 +1,19 @@
-#title#
+######title######
 # 最小全域木
-#subtitle#
+######subtitle######
 # 最小全域木 クラスカル法 minimum_spanning_tree
 # 重み付き無向グラフで、それらの全ての頂点を結び連結するような木の最小のコストを求める
 # 辺の重みの小さい順にみて、連結成分が閉路にならない辺を追加していく
 # つなぐ頂点が同じ連結成分にないことをUnion Find Tree でみる
 
-#name#
+##############name##############
 # 最小全域木
-#description#
+######description######
 # 最小全域木 クラスカル法 minimum_spanning_tree
 # 重み付き無向グラフで、それらの全ての頂点を結び連結するような木の最小のコストを求める
 # 辺の重みの小さい順にみて、連結成分が閉路にならない辺を追加していく
 # つなぐ頂点が同じ連結成分にないことをUnion Find Tree でみる
-#body#
+######body######
 from atcoder.dsu import DSU
 
 class Kruskal:
@@ -53,6 +53,6 @@ for i in range(m):
 mst = Kruskal(n, G)
 print(mst.weight)
 
-#prefix#
+######prefix######
 # Lib_GT_最小全域木_MST
-#end#
+##############end##############

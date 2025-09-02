@@ -1,8 +1,8 @@
-#name#
+##############name##############
 # 尺取り
-#description#
+######description######
 # Lib_尺取り
-#body#
+######body######
 ######################################################################
 # The Smallest Window I
 # 長さNの数列a1,a2,a3,...,aNと整数Sが与えられます。
@@ -126,6 +126,6 @@ for i, ai in enumerate(A):
     ret.append(que[0][0])
 print(*ret)
 
-#prefix#
+######prefix######
 # Lib_O_尺取り
-#end#
+##############end##############

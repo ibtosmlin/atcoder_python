@@ -1,13 +1,13 @@
-#title#
+######title######
 # 転倒数
-#subtitle#
+######subtitle######
 # inv_numbers: listを与えて反転数を出力する
 
-#name#
+##############name##############
 # 転倒数
-#description#
+######description######
 # Lib_転倒数
-#body#
+######body######
 # 転倒数
 # 配列中 i<j, ai>ajとなるものの個数
 # https://atcoder.jp/contests/chokudai_S001/tasks/chokudai_S001_j
@@ -43,6 +43,6 @@ n = int(input())
 a = list(map(int, input().split()))
 ret = inv_numbers(a)
 print(ret)
-#prefix#
+######prefix######
 # Lib_A_転倒数
-#end#
+##############end##############

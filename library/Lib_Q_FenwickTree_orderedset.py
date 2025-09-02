@@ -1,7 +1,7 @@
-#name#
+##############name##############
 # Ordered set (BIT)
-#description#
-#body#
+######description######
+######body######
 
 class BinaryIndexedTree:
     # 初期化処理
@@ -219,6 +219,6 @@ for ai in A:
 
 
 #print(os.kthvalue(0))
-#prefix#
+######prefix######
 # Lib_D_OrderedSet_BIT
-#end#
+##############end##############

@@ -1,8 +1,8 @@
-#name#
+##############name##############
 # 巡回セールスマン問題
-#description#
+######description######
 # 巡回セールスマン問題
-#body#
+######body######
 # bitDP
 # dp[s][i]  集合sに行って、今iにいる場合の最小距離
 
@@ -50,6 +50,6 @@ else:
     print(ret)
 
 
-#prefix#
+######prefix######
 # Lib_A_巡回セールスマン問題_TSP_bitDP
-#end#
+##############end##############

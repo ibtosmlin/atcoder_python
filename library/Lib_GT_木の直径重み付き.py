@@ -1,8 +1,8 @@
-#name#
+##############name##############
 # Diameter
-#description#
+######description######
 # 木の直径
-#body#
+######body######
 
 from collections import deque
 
@@ -56,6 +56,6 @@ print(tree_diameter(n, G))
 print(tree_heights(n, G))
 
 
-#prefix#
+######prefix######
 # Lib_GT_木の直径
-#end#
+##############end##############

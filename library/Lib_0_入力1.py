@@ -1,60 +1,60 @@
-#name#
+##############name##############
 # n=intinput
-#description#
+######description######
 # 整数nの読み込み
-#body#
+######body######
 N = int(input())
-#prefix#
+######prefix######
 # nin
-#end#
+##############end##############
 
 
-#name#
+##############name##############
 # nainput
-#description#
+######description######
 # 整数nの読み込み
-#body#
+######body######
 N = int(input())
 A = list(map(int, input().split()))
-#prefix#
+######prefix######
 # nain
-#end#
+##############end##############
 
-#name#
+##############name##############
 # s=input
-#description#
+######description######
 # 文字列sの読み込み
-#body#
+######body######
 S = list(input())
-#prefix#
+######prefix######
 # sin
-#end#
+##############end##############
 
-#name#
+##############name##############
 # n,m=map(int, input().split())
-#description#
+######description######
 # 整数n, mの読み込み
-#body#
+######body######
 N, M = map(int, input().split())
-#prefix#
+######prefix######
 # n, m=map
-#end#
+##############end##############
 
-#name#
+##############name##############
 # a=list(map(int, input().split()))
-#description#
+######description######
 # リストの読み込み
-#body#
+######body######
 A = list(map(int, input().split()))
-#prefix#
+######prefix######
 # a =list
-#end#
+##############end##############
 
-#name#
+##############name##############
 # edges
-#description#
+######description######
 # edges
-#body#
+######body######
 G = [[] for _ in range($N)]
 for _ in range($M):
     a, b = map(int, input().split())
@@ -62,15 +62,15 @@ for _ in range($M):
     G[a].append(b)
     G[b].append(a)
 
-#prefix#
+######prefix######
 # G =
-#end#
+##############end##############
 
-#name#
+##############name##############
 # edgesweighted
-#description#
+######description######
 # edges(重み付き)
-#body#
+######body######
 G = [[] for _ in range($N)]
 for _ in range($M):
     a, b, w = map(int, input().split())
@@ -78,16 +78,16 @@ for _ in range($M):
     G[a].append((b, w))
     G[b].append((a, w))
 
-#prefix#
+######prefix######
 # G = w
-#end#
+##############end##############
 
-#name#
+##############name##############
 # 0インデックス
-#description#
+######description######
 # 0-indexed
-#body#
+######body######
 a -= 1; b -= 1
-#prefix#
+######prefix######
 # a -= 1; b -= 1
-#end#
+##############end##############

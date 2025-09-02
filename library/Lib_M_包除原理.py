@@ -1,13 +1,13 @@
-#name#
+##############name##############
 # 包除原理
-#subtitle#
+######subtitle######
 # n(A or B or C) = n(A) + n(B) + n(C)
 #                  -n(A&B) -n(B&C) -n(C&A)
 #                  +n(A&B&C)
 
-#description#
+######description######
 # 包除原理
-#body#
+######body######
 
 n, d = map(int, input().split())
 a = list(map(int, input().split()))
@@ -38,6 +38,6 @@ ret = (1 << d) - ret
 
 print(ret)
 
-#prefix#
+######prefix######
 # Lib_M_包除原理_houjo
-#end#
+##############end##############

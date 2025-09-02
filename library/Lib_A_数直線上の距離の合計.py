@@ -1,13 +1,13 @@
-#title#
+######title######
 # 数直線上の距離の合計
-#subtitle#
+######subtitle######
 # 数直線上の点を一か所に集める時のコスト
 
-#name#
+##############name##############
 # 数直線上の距離の合計
-#description#
+######description######
 # 数直線上の点を一か所に集める時のコスト
-#body#
+######body######
 
 from bisect import bisect
 
@@ -55,6 +55,6 @@ pd = points_diffs(A)
 d = 1
 print(pd.minvalue(lambda x: pd.cost_left(x) + pd.cost_right(x+d)))
 
-#prefix#
+######prefix######
 # Lib_A_数直線上の距離の合計
-#end#
+##############end##############

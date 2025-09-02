@@ -1,12 +1,12 @@
-#title#
+######title######
 # 順序付き集合
-#subtitle#
+######subtitle######
 # SortedSet:クラス
 
-#name#
+##############name##############
 # Sorted Set
-#description#
-#body#
+######description######
+######body######
 # https://github.com/tatyam-prime/SortedSet/blob/main/SortedSet.py
 import math
 from bisect import bisect_left, bisect_right
@@ -185,6 +185,6 @@ print(ss.strictly_right_pos(3))
 print(2 in ss)
 ss.remove(2)
 print(2 in ss)
-#prefix#
+######prefix######
 # Lib_D_sorted_set
-#end#
+##############end##############

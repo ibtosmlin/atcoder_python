@@ -1,15 +1,15 @@
-#title#
+######title######
 # ダブリング
-#subtitle#
+######subtitle######
 # f(i): 状態iからの１回の遷移先を定義
 # doubbling(): ダブリングを構築
 # fk(i, k): 状態iからk回の遷移先
 
-#name#
+##############name##############
 # ダブリング
 #discription#
 # ダブリング
-#body#
+######body######
 
 # https://atcoder.jp/contests/abc167/tasks/abc167_d
 
@@ -41,6 +41,6 @@ def fk(i, k):
 
 print(fk(0, k)+1)
 
-#prefix#
+######prefix######
 # Lib_A_ダブリング_doubbling
-#end#
+##############end##############

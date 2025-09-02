@@ -1,13 +1,13 @@
-#title#
+######title######
 # nCr剰余
-#subtitle#
+######subtitle######
 # 数え上げをmodで行う
 
-#name#
+##############name##############
 # nCr
-#description#
+######description######
 # nCr剰余
-#body#
+######body######
 
 
 #####################################
@@ -109,6 +109,6 @@ print(c.nCr(5,2))   #10mod3->1
 print(c.nCr(6,2))   #15mod3->0
 print(c.nCr(6,3))   #20mod3->2
 
-#prefix#
+######prefix######
 # Lib_N_nCr剰余
-#end#
+##############end##############

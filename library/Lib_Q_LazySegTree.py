@@ -1,19 +1,19 @@
-# title#
+######title######
 # 遅延評価セグメント木plain
-# subtitle#
+######subtitle######
 # 遅延評価セグメント木plain
 # LazySegTree:(op, e, mapping, composition, id_, v)
 
-# name#
+##############name##############
 # 遅延評価セグメント木plain
-# description#
+######description######
 # 遅延評価セグメント木
 
-# body#
+######body######
 from atcoder.lazysegtree import LazySegTree as LazySegTreeACL
 
 
-class LazySegmentTree(LazySegTreeACL):
+class LazySegTree(LazySegTreeACL):
     def __init__(self, op, e, mapping, composition, id_, v):
         super().__init__(op, e, mapping, composition, id_, v)
 
@@ -50,21 +50,21 @@ class LazySegmentTree(LazySegTreeACL):
 
 # INF = 10 ** 18
 # RMinQ and RAQ
-# LST = LazySegmentTree([0]*N, min, INF, lambda f, x: f+x, lambda f, g: f+g, 0)
+# LST = LazySegmentTree(min, INF, lambda f, x: f+x, lambda f, g: f+g, 0, [0]*N)
 # RMaxQ and RAQ
-# LST = LazySegmentTree([0]*N, max, -INF, lambda f, x: f+x, lambda f, g: f+g, 0)
+# LST = LazySegmentTree(max, -INF, lambda f, x: f+x, lambda f, g: f+g, 0, [0]*N)
 # #RSumQ and RAQ
 # op = lambda x, y: (x[0]+y[0], x[1]+y[1])
 # mp = lambda f, x: (x[0]+f*x[1], x[1])
-# LST = LazySegmentTree([(0,1)]*N, op, (0,0), mp, lambda f, g: f+g, 0)
+# LST = LazySegmentTree(op, (0,0), mp, lambda f, g: f+g, 0, [(0,1)]*N)
 # #RMinQ and RUQ
-# LST = LazySegmentTree([INF]*N, min, INF, lambda f, x: x if f == INF else f, lambda f, g: g if f == INF else f, INF)
+# LST = LazySegmentTree(min, INF, lambda f, x: x if f == INF else f, lambda f, g: g if f == INF else f, INF, [INF]*N)
 # #RMaxQ and RUQ
-# LST = LazySegmentTree([-INF]*N, max, -INF, lambda f, x: x if f == -INF else f, lambda f, g: g if f == -INF else f, -INF)
+# LST = LazySegmentTree(max, -INF, lambda f, x: x if f == -INF else f, lambda f, g: g if f == -INF else f, -INF, [-INF]*N)
 # #RSumQ and RUQ
 # op = lambda x, y: (x[0]+y[0], x[1]+y[1])
 # mp = lambda f, x: x if f == INF else (f*x[1], x[1])
-# LST = LazySegmentTree([(0,1)]*N, op, (0,0), mp, lambda f, g: g if f == INF else f, INF)
+# LST = LazySegmentTree(op, (0,0), mp, lambda f, g: g if f == INF else f, INF, [(0,1)]*N)
 
 
 # https://github.com/ibtosmlin/atcoder/blob/main/lib/lib/Memo_%E9%81%85%E5%BB%B6%E8%A9%95%E4%BE%A1Seg%E6%9C%A8.md
@@ -103,9 +103,9 @@ for i in map(int, input().split()):
         a.append((0, 0, 1))
     else:
         a.append((0, 1, 0))
-sgt = LazySegmentTree(op, e, mapping, composition, id, a)
+sgt = LazySegTree(op, e, mapping, composition, id, a)
 
 
-# prefix#
+######prefix######
 # Lib_Q_LazySeg_plain
-# end#
+##############end##############

@@ -1,14 +1,14 @@
-#title#
+######title######
 # 偏角ソート
-#subtitle#
+######subtitle######
 # degree_sort(points): 偏角ソートした配列
 # 原点<第一象限<第二象限<第三象限<第四象限
 
-#name#
+##############name##############
 # 偏角ソート
-#description#
+######description######
 # 偏角ソート
-#body#
+######body######
 from functools import cmp_to_key
 def degree_sort(points):
     def quadrant(x, y):
@@ -30,6 +30,6 @@ def degree_sort(points):
             return -1 if p_qua < q_que else 1
     return sorted(points, key = cmp_to_key(points_cmp))
 ########################################
-#prefix#
+######prefix######
 # Lib_AL_偏角ソート
-#end#
+##############end##############

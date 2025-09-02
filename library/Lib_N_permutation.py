@@ -1,17 +1,17 @@
-#title#
+######title######
 # 順列のライブラリ
-#subtitle#
+######subtitle######
 # permutationクラス:
 # id_of_permutation(): 何番目か
 # kth_permutation(k): k番目を出力
 # prev():前の順列
 # next():次の順列
 
-#name#
+##############name##############
 # Lib_permutation
-#description#
+######description######
 # 順列のライブラリ
-#body#
+######body######
 
 class permutation:
     def __init__(self, L):
@@ -97,6 +97,6 @@ P = [int(a) for a in input().split()]
 mut = permutation(P)
 print(*mut.prev())
 
-#prefix#
+######prefix######
 # Lib_permutation_順列
-#end#
+##############end##############

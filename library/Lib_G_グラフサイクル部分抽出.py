@@ -1,8 +1,8 @@
-#name#
+##############name##############
 # Lib_G_枝刈り取る
-#description#
+######description######
 # グラフの葉から枝を刈り取って、ループ部分のみ抽出する
-#body#
+######body######
 
 def cycle(n, G):
     degree = [0] * n
@@ -31,6 +31,6 @@ for _ in range(m):
 
 print(cycle(n, G))
 
-#prefix#
+######prefix######
 # Lib_G_cycle
-#end#
+##############end##############

@@ -1,16 +1,16 @@
-#title#
+######title######
 # ワーシャルフロイド法
-#subtitle#
+######subtitle######
 # warshall_floyd: 全頂点間最短経路のリストを作る
 # O(N^3)
 
-#name#
+##############name##############
 # ワーシャルフロイド法
 #discription#
 # 全頂点間最短路
 # d[i][j]は2頂点間i, j間の移動コストを格納, Nは頂点数
 # O(N^3)
-#body#
+######body######
 
 class WarshallFloyd:
     INF = 10**18
@@ -119,6 +119,6 @@ wf.build()
 
 print(wf.path(0, n-1))
 
-#prefix#
+######prefix######
 # Lib_SP_最短経路探索_warshall
-#end#
+##############end##############

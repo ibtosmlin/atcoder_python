@@ -1,9 +1,9 @@
-#name#
+##############name##############
 # 各桁の寄与度
-#description#
+######description######
 # 各桁の寄与度
 # 356
-#body#
+######body######
 def sum_digit(s, d=10, mod=-1):
     n = len(s)
     ret = 0
@@ -36,6 +36,6 @@ mod = 998244353
 s = input()
 print(sum_digit(s, 10, mod))
 
-#prefix#
+######prefix######
 # Lib_O_各桁の寄与度
-#end#
+##############end##############

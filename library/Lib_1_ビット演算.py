@@ -1,8 +1,8 @@
-#name#
+##############name##############
 # BIT演算
-#description#
+######description######
 # BIT演算
-#body#
+######body######
 
 class Bit:
     def __init__(self, x=0):
@@ -106,7 +106,7 @@ for b in x.kcountsubset(2):
 (1 << 3) - 1    # 111
 
 
-#prefix#
+######prefix######
 # Lib_BIT演算
-#end#
+##############end##############
 

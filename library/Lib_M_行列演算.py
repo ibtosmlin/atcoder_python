@@ -1,6 +1,6 @@
-#title#
+######title######
 # 行列演算
-#subtitle#
+######subtitle######
 # prod: (ma*mb, mod)行列の掛け算(modで)
 # powmat: 正方行列のべき乗計算
 # trans: 転置行列を返す
@@ -8,11 +8,11 @@
 # gauss_jordan: F2(二進数)での上三角行列
 # solve_linear_equation: F2(二進数)でAx=bとなるxを求める
 
-#name#
+##############name##############
 # 行列演算
 #descripiton#
 # 行列演算
-#body#
+######body######
 
 def matprod(ma, mb, mod = 10**9+7):
     h_a = len(ma)   # n
@@ -55,43 +55,43 @@ for r in matprod(ma, mb, mod):
     print(*r)
 
 
-#prefix#
+######prefix######
 # Lib_M_行列演算_matrix
-#end#
+##############end##############
 
 
-#name#
+##############name##############
 # 転置行列
-#description#
+######description######
 # 転置行列
-#body#
+######body######
 def trans(A):
     return [list(x) for x in zip(*A)]
-#prefix#
+######prefix######
 # transpose_matrix
-#end#
+##############end##############
 
 
-#name#
+##############name##############
 # 行列90度回転
-#description#
+######description######
 # 行列90度回転
-#body#
+######body######
 def rotate(A, reverse = False):
     if reverse:
         return [list(x) for x in zip(*A)][::-1]
     else:
         return [list(x) for x in zip(*A[::-1])]
-#prefix#
+######prefix######
 # Lib_M_rotate_matrix
-#end#
+##############end##############
 
 
-#name#
+##############name##############
 # F2(2進数)での上三角行列生成
-#description#
+######description######
 # F2(2進数)での上三角行列生成
-#body#
+######body######
 def gauss_jordan(ma):
     n, m = len(ma), len(ma[0])
     rank = 0
@@ -110,15 +110,15 @@ def gauss_jordan(ma):
             rank += 1
     return ma, rank
 
-#prefix#
+######prefix######
 # Lib_M_上三角行列
-#end#
+##############end##############
 
-#name#
+##############name##############
 # F2(2進数)でのA・x = b となるxを見つける
-#description#
+######description######
 # F2(2進数)でのA・x = b となるxを見つける
-#body#
+######body######
 def solve_linear_equation(A, b):
     """A・x = b となるxを見つける"""
     h, w = len(A), len(A[0])
@@ -144,9 +144,9 @@ def solve_linear_equation(A, b):
     # print(rank)
     return _A, rank
 
-#prefix#
+######prefix######
 # Lib_M_線形方程式
-#end#
+##############end##############
 
 # class MatrixMod:
 #     def __init__(self, n: int, m: int, from_array= None) -> None:

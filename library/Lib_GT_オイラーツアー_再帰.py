@@ -1,8 +1,8 @@
-#name#
+##############name##############
 # オイラーツアー eulartour 再帰版
-#description#
+######description######
 # オイラーツアー eulartour 再帰版
-#body#
+######body######
 # オイラーツアー eulartour 再帰版
 # 木をDFSしたときの順番で頂点を記録する手法
 # pre-order : 頂点に到着したら記録
@@ -99,6 +99,6 @@ print(T.depthbynodes)
 2 3
 """
 
-#prefix#
+######prefix######
 # Lib_GT_オイラーツアー_再帰版_eulartour
-#end#
+##############end##############

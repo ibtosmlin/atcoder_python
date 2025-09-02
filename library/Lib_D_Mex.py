@@ -1,17 +1,17 @@
-#title#
+######title######
 # MEX
-#subtitle#
+######subtitle######
 # Mex: 要素追加・削除機能付きClass
 # get: Mexを取得
 # add: 要素を追加
 # remove: 要素を削除
 
 
-#name#
+##############name##############
 # 追加削除機能付きMex
-#description#
+######description######
 # 追加削除機能付きMex
-#body#
+######body######
 
 from heapq import heappop, heappush
 class Mex:
@@ -56,6 +56,6 @@ for i,x in qs:
     A[i] = x
     print(mex.get())
 
-#prefix#
+######prefix######
 # Lib_D_Mex
-#end#
+##############end##############

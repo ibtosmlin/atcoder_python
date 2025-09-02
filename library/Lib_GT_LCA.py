@@ -1,8 +1,8 @@
-#name#
+##############name##############
 # LCA
-#description#
+######description######
 # 最小共通祖先
-#body#
+######body######
 from collections import deque
 class Lca:
     """Lowest Common Ancestor
@@ -155,6 +155,6 @@ for _ in range(q):
     # print(lca.jump(u, v, k))
     print(lca.distance(u, v)+1)
 
-#prefix#
+######prefix######
 # Lib_GT_最小共通祖先_LCA
-#end#
+##############end##############

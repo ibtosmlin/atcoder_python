@@ -1,15 +1,15 @@
-#title#
+######title######
 # 最長共通部分列
-#subtitle#
+######subtitle######
 # LCS(S, T): SとTでクラスを構築
 # len: LCSの長さ
 # str: 最長共通部分列を構築
 
-#name#
+##############name##############
 # LCS最長共通部分列
-#description#
+######description######
 # Lib_LCS最長共通部分列
-#body#
+######body######
 #####################################
 # LCS(longest common sequence)
 # 部分列で最長の共通のもの
@@ -71,6 +71,6 @@ lcs = LCS(s, t)
 print(len(lcs))
 print(lcs)
 
-#prefix#
+######prefix######
 # Lib_LCS最長共通部分列#
-#end#
+##############end##############

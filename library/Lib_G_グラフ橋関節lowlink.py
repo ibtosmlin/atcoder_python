@@ -1,8 +1,8 @@
-#name#
+##############name##############
 # Lib_G_グラフ橋関節_lowlink
-#description#
+######description######
 # グラフの橋・関節をO(n)で検出
-#body#
+######body######
 #関節 https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/3/GRL_3_A
 #橋 https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/3/GRL_3_B
 
@@ -177,6 +177,6 @@ for i, xi in enumerate(x.biconnected_component()[-1]):
 #print(x.two_edge_connected_component())
 # print(x.biconnected_component())
 
-#prefix#
+######prefix######
 # Lib_G_グラフ橋関節_lowlink
-#end#
+##############end##############

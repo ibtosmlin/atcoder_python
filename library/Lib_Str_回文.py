@@ -1,16 +1,16 @@
-#title#
+######title######
 # 回文
-#subtitle#
+######subtitle######
 # Palindrome: 文字列の中に含まれる回文を取得する O(N)
 # OddStrRadius(c): 文字列S[c]を中心とした奇数列の最大の回文の半径
 # EvenStrRadius(c): 文字列S[c]S[c+1]を中心とした偶数列の最大の回文の半径
 # isPalindrome(c): 文字列S[l:r]が回文かどうか反転
 
-#name#
+##############name##############
 # 回文
-#description#
+######description######
 # 回文クラス
-#body#
+######body######
 # https://atcoder.jp/contests/indeednow-finalb-open/tasks/indeednow_2015_finalb_c
 
 class Palindrome:
@@ -63,6 +63,6 @@ S = input()
 
 pd = Palindrome(S)
 
-#prefix#
+######prefix######
 # Lib_Str_回文_Palindrome
-#end#
+##############end##############

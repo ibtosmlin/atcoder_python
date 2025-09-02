@@ -1,28 +1,28 @@
-#name#
+##############name##############
 # reverse=True
-#description#
+######description######
 # ソートでのリバース
-#body#
+######body######
 reverse=True
-#prefix#
+######prefix######
 # reverse=True
-#end#
+##############end##############
 
-#name#
+##############name##############
 # sort(key=itemgetter
-#description#
+######description######
 # itemgetterソート
-#body#
+######body######
 sort(key=lambda x: x[1])
-#prefix#
+######prefix######
 # sort(key=l
-#end#
+##############end##############
 
-#name#
+##############name##############
 # 順列・組み合わせ
-#description#
+######description######
 # 順列・組み合わせ
-#body#
+######body######
 from itertools import *
 P = list(permutations(range($n), r))   # 順列(nPr)
 C = list(combinations(range($n), r))   # 組み合わせ(nCr)
@@ -33,16 +33,16 @@ PT = list(product(*T))
 
 from more_itertools import distinct_combinations, distinct_permutations
 
-#prefix#
+######prefix######
 # itertools
 # Lib_順列・組み合わせ
-#end#
+##############end##############
 
-#name#
+##############name##############
 # direc
-#description#
+######description######
 # direc
-#body#
+######body######
 direc = {"U":(0, 1), "R":(1, 0), "D":(0, -1), "L":(-1, 0)}
 direc = [(0, 1), (1, 1), (1, 0), (1, -1), (0, -1), (-1, -1), (-1, 0), (-1, 1)]
 
@@ -53,6 +53,6 @@ for di, dj in direc:
     ni = i + di
     nj = j + dj
 
-#prefix#
+######prefix######
 # direc_canmove
-#end#
+##############end##############

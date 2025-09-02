@@ -1,13 +1,13 @@
-#title#
+######title######
 # レーベンシュタイン距離
-#subtitle#
+######subtitle######
 # Levenshtein: 削除・挿入・変更により文字列を一致させる最小の手順回数
 
-#name#
+##############name##############
 # レーベンシュタイン距離
-#description#
+######description######
 # Lib_レーベンシュタイン距離
-#body#
+######body######
 
 #####################################
 # レーベンシュタイン距離 文字列の近似度
@@ -105,6 +105,6 @@ print(ldiff.distance())
 print('Yes' if ldiff.islowerK(K) else 'No')
 
 
-#prefix#
+######prefix######
 # Lib_Str_レーベンシュタイン距離_Levenshtein_distance#
-#end#
+##############end##############

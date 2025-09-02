@@ -1,15 +1,15 @@
-#title#
+######title######
 # 二部グラフ判定
-#subtitle#
+######subtitle######
 # 二部グラフ(bipartite graph)
 # 頂点集合を2つに分割して各部分の頂点は互いに隣接しないようにできるグラフ
 # ノード2色を塗って、辺の両端は異なるようにできるか
 
-#name#
+##############name##############
 # 二部グラフ判定
-#description#
+######description######
 # 隣接リストから二部グラフかどうか判定
-#body#
+######body######
 
 import sys
 sys.setrecursionlimit(10**9)
@@ -67,6 +67,6 @@ for i in range(m):
 
 print(is_bipartite(G, 0, 1))
 
-#prefix#
+######prefix######
 # Lib_G_二部グラフ判定_bipartite
-#end#
+##############end##############

@@ -1,42 +1,41 @@
-#name#
+##############name##############
 # modval1
-#description#
+######description######
 # modval
-#body#
+######body######
 mod = 1000000007
-#prefix#
+######prefix######
 # mod = 1000000007
-#end#
+##############end##############
 
-#name#
+##############name##############
 # modval2
-#description#
+######description######
 # modval
-#body#
+######body######
 mod = 998244353
-#prefix#
+######prefix######
 # mod = 998244353
-#end#
+##############end##############
 
-#name#
+##############name##############
 # pival
-#description#
+######description######
 # pival
-#body#
+######body######
 PI = 3.141592653589793
-#prefix#
+######prefix######
 # pi_π円周率
-#end#
+##############end##############
 
-#name#
+##############name##############
 # alphabet
-#description#
+######description######
 # alphabet
-#body#
+######body######
 ALPS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; alps = 'abcdefghijklmnopqrstuvwxyz'
 def alp(i, base='a'): return chr(ord(base) + i%26)    # i=0->'a', i=25->'z'
 def alpind(a, base='a'): return ord(a)-ord(base)
-#prefix#
+######prefix######
 # alphabet
-#end#
-
+##############end##############

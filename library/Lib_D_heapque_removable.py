@@ -1,6 +1,6 @@
-#title#
+######title######
 # 削除機能付きheapque
-#subtitle#
+######subtitle######
 # DeletableHeapq: クラス
 # DeletableMaxMinHeapQ: クラス
 # heappush:
@@ -10,11 +10,11 @@
 # heapmin: 小さいものにアクセス
 # discard(x): xを削除
 
-#name#
+##############name##############
 # 削除機能付きHeapque
-#description#
+######description######
 # 削除機能付きHeapque
-#body#
+######body######
 
 from heapq import heapify, heappush, heappop
 class Heapq:
@@ -41,16 +41,16 @@ class Heapq:
         if self.q:
             return self.q[0]
         return exc
-#prefix#
+######prefix######
 # Lib_D_heapque_min
-#end#
+##############end##############
 
 
-#name#
+##############name##############
 # 削除機能付きMaxMinheapque
-#description#
+######description######
 # 削除機能付きMaxMinheapque
-#body#
+######body######
 from heapq import heappush, heappop
 from collections import defaultdict
 class DeletableMaxMinHeapq():
@@ -114,6 +114,6 @@ for _ in range(q):
 
 ############
 
-#prefix#
+######prefix######
 # Lib_D_heapque_minmax
-#end#
+##############end##############

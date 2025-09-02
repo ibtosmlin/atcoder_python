@@ -1,12 +1,12 @@
-#title#
+######title######
 # 順序付き重複あり集合
-#subtitle#
+######subtitle######
 # SortedMultiSet:クラス
 
-#name#
+##############name##############
 # Sorted Multi Set
-#description#
-#body#
+######description######
+######body######
 # https://github.com/tatyam-prime/SortedSet/blob/main/SortedMultiset.py
 import math
 from bisect import bisect_left, bisect_right, insort
@@ -171,6 +171,6 @@ for _ in range(q):
         sm.add(query[1])
 
 
-#prefix#
+######prefix######
 # Lib_D_sorted_multi_set
-#end#
+##############end##############
