@@ -7358,7 +7358,7 @@
             "        a.append((0, 0, 1))",
             "    else:",
             "        a.append((0, 1, 0))",
-            "sgt = LazySegmentTree(op, e, mapping, composition, id, a)",
+            "sgt = LazySegTree(op, e, mapping, composition, id, a)",
             "",
             ""
         ],

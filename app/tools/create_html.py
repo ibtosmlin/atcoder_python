@@ -84,7 +84,7 @@ def main():
     root = tf.find_project_root(Path(__file__))
     lib_dir = root / "library"
     template_dir = root / "web/templates"
-    output_path = root / "index.html"
+    output_path = root / "web/index.html"
     exclude = [lib_dir / "Lib_templete.py"]
 
     context = {
